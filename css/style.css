@@ -1,0 +1,15 @@
+* {
+    text-align: center;
+}
+
+body {
+    background-color: aquamarine;
+
+}
+
+div {
+    background-color:lightblue;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
