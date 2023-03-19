@@ -9,7 +9,13 @@ body {
 
 div {
     background-color:lightblue;
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
+    padding: 20px;
+}
+div:hover::before{
+    content: "Tooltip text";
+    background-color:white;
+    
+}
+ [tooltip-position="top"] {
+    
 }
